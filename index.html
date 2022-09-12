@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home page</title>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+ 
+ 
+ 
+     <script type="text/javascript" src=" ../font/js/all.min.js"></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style type="text/css">
+	.head {
+		display: fixed;
+    background-color: #DC143C;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+h1.display-4{
+  text-shadow: 3px 3px 	#00008B;
+
+}
+.link
+{    width: 300px;
+	height: 200px;
+	margin-top: 40px;
+	
+	 background-color:#8B008B;
+	 border-radius: 10px;
+  
+
+}
+@media (max-width: 768px) {
+	.link{
+	  margin-top: 50px;
+	  width:100%;
+	}
+	
+}
+.link:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-decoration: none;
+	background-color: #DC143C;
+	color: #006400;
+}
+.same
+{
+	font-size: 60px;
+	font-weight: bold;
+	padding: 60px 0px 0px 60px;
+	
+}
+</style>
+</head>
+<body>
+<div class="jumbotron head"><marquee scrollamount="20" ><h1 class="display-4 text-success">WELCOME TO ONLINE ATTENDENCE SYSTEM</h1></marquee>
+ </div>
+  <div class="container">
+  	<div class="row">
+  		  <a href="student/login.php" target="_blank" class="col-md-5 link"><div class=" col-md-5"><h1 class="same">STUDENT</h1></div></a>
+  		<div class="col-md-2"></div>
+  		<a href="teacher/login.php" class="col-md-5 link" target="_blank"><div class=" col-md-5"><h1 class="same">TEACHER</h1></div></a>
+  	</div>
+  	<div class="row">
+  		<a href="admin/login.php" class="col-md-5 link" target="_blank"><div class=" col-md-5"><h1 class="same">ADMIN</h1></div></a>
+  		<div class="col-md-2"></div>
+  		<a href="#" class="col-md-5 link" target="_blank"><div class=" col-md-5"><h1 class="same">ABOUT</h1></div></a>
+  	</div>
+  </div>
+</body>
+</html>
